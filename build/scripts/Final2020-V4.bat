@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\Final2020-V4.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar
 
 @rem Execute Final2020-V4
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FINAL2020_V4_OPTS%  -classpath "%CLASSPATH%" _________________________ %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %FINAL2020_V4_OPTS%  -classpath "%CLASSPATH%" Main %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
